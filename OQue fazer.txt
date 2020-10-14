@@ -1,0 +1,46 @@
+Em duplas, neste exercício OOP, modele a seguir conforme as especificações:
+
+a) 2,0 (0,25 cada item) Implemente a classe Aeronave, com os seguintes
+atributos:
+• NomeAeronave (string) que guarda o nome da aeronave;
+• CapacidadeTanqueCombustivel (int) que guarda a capacidade em litros
+de combustível que a aeronave comporta;
+• NivelCombustivelAtual (int) que guarda a quantidade de combustível
+atual presente no tanque;
+• QtdPassageiros (int) quantidade de passageiros que a aeronave
+suporta;
+• AutonomiaAeronave (int), que identifica a quantidade de km que ela
+pode voar sem abastecer;
+• HorasDeVoo, que conta quantos quilômetros a aeronave já percorreu
+em sua vida útil;
+• NomePiloto,(string), que guarda o nome do piloto atual da aeronave;
+• AeroportoAtual(string), que guarda em qual aeroporto a aeronave se
+encontra atualmente;
+
+
+b) 2,0 Implemente o método public int AbastecerAeronave(), que atualiza o
+nível de combustível caso ele já não esteja cheio. Método retorna a quantidade
+de litros abastecidos, que é a diferença entre a capacidade total do tanque e a
+quantidade de combustível presente no tanque antes do abastecimento;
+
+
+c) 2, 0 Implemente o método int Voar(int distancia) que recebe como parâmetro
+uma distância em km a ser percorrida pela aeronave. Porém, só deve ser
+possível executar o método caso a distância seja menor ou igual à autonomia
+da aeronave. Caso sim, atualizar o atributo “HorasDeVoo”, adicionando a
+quilometragem inserida. O método deve retornar a quantidade total de horas de
+voo da aeronave atualizada;
+
+
+d) 2,0 Implemente getters e setters para:
+• Acessar e alterar o nome do piloto da aeronave;
+• Acessar e alterar o aeroporto atual onde a aeronave se encontra;
+
+
+e) 1,0 Implemente dois construtores para a classe, um vazio e outro completo,
+compreendendo todos os atributos da classe;
+
+
+f) 1, 0 (0,5 cada) No método principal do programa:
+• instancie uma aeronave por meio do construtor com parâmetros;
+• utilize o método Voar(3000);
